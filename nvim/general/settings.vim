@@ -6,6 +6,8 @@ set guioptions-=T                                   " No Tool bar
 
 set cursorline                                     " Highlight the current line
 
+set mouse=a
+
 set hidden                                         " When on a buffer becomes hidden when it is abandoned
 set path+=**
 set nowrap
@@ -13,7 +15,7 @@ set encoding=UTF-8
 
 set number relativenumber
 
-set smartindent
+set autoindent smartindent
 set smarttab
 set tabstop=4 softtabstop=4
 set shiftwidth=4
@@ -26,7 +28,7 @@ set signcolumn=yes
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-set clipboard=unnamedplus
+set clipboard^=unnamed,unnamedplus
 
 set noswapfile
 set nobackup
