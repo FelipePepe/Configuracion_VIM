@@ -1,3 +1,5 @@
+let mapleader=" "
+
 " Edit vimrc fasterwq
 nnoremap <Leader>v :e $MYVIMRC<cr>
 
@@ -37,3 +39,7 @@ nnoremap <leader><S-tab> :bp<cr>
 nnoremap <leader>w :bd<cr>
 
 nmap <leader>nt :NERDTreeFind<CR>
+
+nnoremap <silent><C-Left> :tabprevious<CR>
+nnoremap <silent><C-Right> :tabnext<CR>
+
